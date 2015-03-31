@@ -29,7 +29,7 @@ Installation
        :maxdepth: 3
        :numbered:
 
-       Notes on Installation o<installation>
+       Notes on Installation <installation>
 
 
 User Manual
