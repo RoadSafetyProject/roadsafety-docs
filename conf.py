@@ -36,7 +36,6 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
-    'alabaster',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
