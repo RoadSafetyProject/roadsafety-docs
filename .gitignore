@@ -1,0 +1,6 @@
+_build
+/nbproject/private
+.idea
+.project
+.buildpath
+*~*
