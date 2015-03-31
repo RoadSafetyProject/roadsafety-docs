@@ -15,6 +15,7 @@
 import sys
 import os
 import shlex
+import alabaster
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -36,6 +37,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
+    'alabaster',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -117,13 +119,15 @@ todo_include_todos = True
 # a list of builtin themes.
 html_theme = 'alabaster'
 
+
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-#html_theme_path = []
+html_theme_path = [alabaster.get_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -160,7 +164,11 @@ html_static_path = ['_static']
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+html_sidebars = {
+    '**': [
+        'about.html', 'navigation.html', 'searchbox.html', 'donate.html',
+    ]
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
@@ -230,7 +238,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'iroad-docs.tex', u'iroad-docs Documentation',
-   u'John Francis Mukulu', 'manual'),
+   u'University of Dar es salaam', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
