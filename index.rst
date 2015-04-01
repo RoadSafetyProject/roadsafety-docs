@@ -45,7 +45,7 @@ User Manual
 
        Data Management<datamanage>
 
-       Report<report>   
+       Reports<report>   
 
 
 Administrators Manual

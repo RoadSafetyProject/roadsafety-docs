@@ -12,8 +12,31 @@ This part is intended to give user an insight on how to use the system and acces
 Login
 =====
 
-Open the browser and type the following address:  then a page similar to the one shown in the image below will be displayed whereby a user will be required to type in their correct username and password. In the instance where one does not have a username or password please see register information following next. This system works best with Mozilla Firefox, Google Chrome or Opera browsers. From here on, the use of the word “browser” will refer to above mentioned web browsers only.
+Open the browser and type the following address: http://www.roadsafety.udsm.go.tz then a page similar to the one shown in the image below will be displayed whereby a user will be required to type in their correct username and password. In the instance where one does not have a username or password please see register information following next. This system works best with Mozilla Firefox, Google Chrome or Opera browsers. From here on, the use of the word “browser” will refer to above mentioned web browsers only.Open the browser and type the following address:  then a page similar to the one shown in the image below will be displayed whereby a user will be required to type in their correct username and password. In the instance where one does not have a username or password please see register information following next. This system works best with Mozilla Firefox, Google Chrome or Opera browsers. From here on, the use of the word “browser” will refer to above mentioned web browsers only.
 
+.. _fields_image:
+.. figure::  images/login.png
+   :align:   center
+
+.. centered:: **fig 1.1: Image showing login Interface.**
+
+
+
+Upon successful login, a user will be directed to the page with the menu on the left hand side through which he can access various parts of the system (see figure 1.3 below). However on unsuccessful login an error message will be displayed (see figure 1.2 below) and you will be required to re-type the username and password.
+
+.. _fields_image:
+.. figure::  images/login3.png
+   :align:   center
+
+.. centered:: **fig 1.2: Image showing error message displayed on unsuccessful login.**
+
+
+.. _fields_image:
+.. figure::  images/login2.png
+   :align:   center
+
+.. centered:: **fig 1.3: Image showing iROAD home page on successful Login.**
+ 
 
 
 .. index:: Register

@@ -9,7 +9,7 @@ Welcome to Integrated Road Safety Information Systems for collection,
 storage, aggregation, analysis and dissemination of information associated
 with road safety.
 
-.. index:: Components of iROAD
+.. index:: Components of iRoad
 
 Components of iROAD
 ===================
