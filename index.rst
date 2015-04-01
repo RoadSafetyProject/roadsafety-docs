@@ -57,13 +57,6 @@ Administrators Manual
 
        What is iroad<introduction>
 
-       User Module<users>
-
-       Form Management<formmanage>
-
-       Target Module<target>
-
-       Orgunit Module<orgunitmodule>
 
        
 
@@ -75,7 +68,6 @@ Developers Documentation
        :maxdepth: 3
        :numbered:
       
-       developer
 
 Contributions
 =============
@@ -84,7 +76,6 @@ Contributions
        :maxdepth: 3
        :numbered:
       
-       contribution
     
 
 References
