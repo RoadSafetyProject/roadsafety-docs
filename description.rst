@@ -4,7 +4,7 @@
 Description of the System
 *************************
 
-The following part is intended to give user an insight on how to use the system and access different features and system components.
+This part is intended to give user an insight on how to use the system and access different features and system components.
 
 
 .. index:: Login
@@ -25,7 +25,7 @@ In the case where one does not have a username or password, they will be require
 These steps so far, will enable for an account to be created but access to information already in the system will still not be possible until verification of user is done by the help desk team who will then assign new user to an organization unit for complete registration.
 
 .. _fields_image:
-.. figure::  image/structure.png
+.. figure::  images/structure.png
    :align:   center
 
 .. centered:: **fig 2.1: Image showing Register Page for new user.**
@@ -50,7 +50,7 @@ Message feature
 This feature enables user to interact with each other, and with a technical team of HRHIS for instant support. To write a new message simply select the message button and click on options of either “create a new message” or “create a feedback”. Feedback is used to keep in touch with all the technical team of HRHIS while create new message user is required to select to whom the message should be sent- recipient. A recipient in this case could be an individual or all users in a given organization unit.
 
 .. _fields_image:
-.. figure::  image/structure.png
+.. figure::  images/structure.png
    :align:   center
 
 .. centered:: **fig 4.2: Image showing different message options.**
@@ -63,7 +63,7 @@ User profile
 User profile enables a user to view their profile, customize dashboard reports, view settings, change user password or log out of the system. To access the user profile click on the username and a drop down list as seen in the diagram will appear.
 
 .. _fields_image:
-.. figure::  image/structure.png
+.. figure::  images/structure.png
    :align:   center
 
 .. centered:: **fig 4.3: Image showing User Profile options.**
