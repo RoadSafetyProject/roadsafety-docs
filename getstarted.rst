@@ -12,7 +12,7 @@ the offence(s); Recording and transmitting accident scene which involves recordi
 incidences when they occur by police,notification and locating of the accident reported by the community (witness or victim). 
 
 iROAD is a loosely coupled modular web based software bundle that is built with
-free and open source PHP >= 5.3 Web Frameworks. Among the frameworks Involves
+free and open source PHP >= 5.3 Web Frameworks. Among the frameworks Involves;
 
     * Laravel PHP Web Development Framework
     * Angular JS as a scripting language

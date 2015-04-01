@@ -12,7 +12,7 @@ The following part is intended to give user an insight on how to use the system 
 Login
 =====
 
-Open the browser and type the following address: http://www. hrhis.moh.go.tz then a page similar to the one shown in the image below will be displayed whereby a user will be required to type in their correct username and password. In the instance where one does not have a username or password please see register information following next. This system works best with Mozilla Firefox, Google Chrome or Opera browsers. From here on, the use of the word “browser” will refer to above mentioned web browsers only.
+Open the browser and type the following address:  then a page similar to the one shown in the image below will be displayed whereby a user will be required to type in their correct username and password. In the instance where one does not have a username or password please see register information following next. This system works best with Mozilla Firefox, Google Chrome or Opera browsers. From here on, the use of the word “browser” will refer to above mentioned web browsers only.
 
 
 
