@@ -34,7 +34,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
-    'sphinx.ext.mathjax',
+    'sphinx.ext.pngmath',
     'sphinx.ext.ifconfig',
 ]
 
@@ -54,8 +54,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'iroad-docs'
-copyright = u'2015, John Francis Mukulu'
-author = u'John Francis Mukulu'
+copyright = u'2015, University of Dar Es Salaam'
+author = u'University of Dar Es Salaam'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
