@@ -54,42 +54,68 @@ These steps so far, will enable for an account to be created but access to infor
 .. centered:: **fig 2.1: Image showing Register Page for new user.**
 
 
-
-.. index:: Forgot password
-
-Forgot password
-===============
-
-
-Home page
-=========
-
-
-.. index:: Message feature
-
-Message feature
----------------
-
-This feature enables user to interact with each other, and with a technical team of HRHIS for instant support. To write a new message simply select the message button and click on options of either “create a new message” or “create a feedback”. Feedback is used to keep in touch with all the technical team of HRHIS while create new message user is required to select to whom the message should be sent- recipient. A recipient in this case could be an individual or all users in a given organization unit.
-
-.. _fields_image:
-.. figure::  images/structure.png
-   :align:   center
-
-.. centered:: **fig 4.2: Image showing different message options.**
-
 .. index:: User profile
 
 User profile
-------------
+========
 
 User profile enables a user to view their profile, customize dashboard reports, view settings, change user password or log out of the system. To access the user profile click on the username and a drop down list as seen in the diagram will appear.
 
 .. _fields_image:
-.. figure::  images/structure.png
+.. figure::  images/profile.png
    :align:   center
 
 .. centered:: **fig 4.3: Image showing User Profile options.**
+
+
+
+
+.. index:: Change password
+
+Change password
+===============
+
+In the instance where a user wants to change his/her password, the Change Password?” link on the login page is there to assistance. On clicking the link a user will be sent to a page as shown in the Figure 3.1 and required to provide the current password and the new password.After that the user shoul click on the "SUBMIT" button and he/she will have a new password.
+
+.. _fields_image:
+.. figure::  images/changepassword.png
+   :align:   center
+
+.. centered:: **fig 3.1: Image showing required details for changing password.**
+
+
+.. index:: Home Page
+
+Home page
+=========
+
+On successful login, a user is directed to the Home Page which consists of the main menu on the right side and dashboard charts in the middle. 
+
+
+.. _fields_image:
+.. figure::  images/login2.png
+   :align:   center
+
+.. centered:: **fig 4.1: User Home Page displaying interactive components.**
+
+
+
+.. index:: Services
+
+Services
+=========
+
+On the Home page there is a link on the right hand side written "Services" that will direct you to the services the system offers.Figure below shows the services page.
+
+.. _fields_image:
+.. figure::  images/services.png
+   :align:   center
+
+.. centered:: **fig 4.1: User Home Page displaying interactive components.**
+
+
+
+ 
 
 
  

@@ -68,6 +68,7 @@ Developers Documentation
        :maxdepth: 3
        :numbered:
       
+	  developers
 
 Contributions
 =============
@@ -76,6 +77,7 @@ Contributions
        :maxdepth: 3
        :numbered:
       
+	  contributors
     
 
 References
@@ -91,7 +93,7 @@ iROAD Best Practices
   	   :numbered:
 
 
-	   Recommendations for Deployment and Implementation<bestpractices>
+	   Recommendations for Deployment and Implementation
 
         
 
