@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-This is Road Safety Management System Dodumentention
+Welcome To The Road Safety Management System Documentantion
 =============================================================
 
 .. index:: Table of content
@@ -12,7 +12,7 @@ This is Road Safety Management System Dodumentention
 Preface
 ==========
 
-Get started fast with the **iROAD**  
+Introduction to the **iROAD**  
 
     .. toctree::
        :maxdepth: 3
@@ -92,7 +92,7 @@ References
 
         Project References
 
-HRIS Best Practices
+iROAD Best Practices
 ===================
 
   	.. toctree::
@@ -100,7 +100,7 @@ HRIS Best Practices
   	   :numbered:
 
 
-	   Recommendations for Deployment and Implementation<hrisBestPractices>
+	   Recommendations for Deployment and Implementation<bestpractices>
 
         
 
