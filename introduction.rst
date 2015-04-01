@@ -15,7 +15,7 @@ Components of iROAD
 ===================
 Figure 1 below depicts major components of road safety information with respect to the need of the integration into an information system for road safety management.
  
-.. image:: images/structure.png
+.. image:: _images/structure.png
    :align:  center
 
 These components includes car registration and use validity which involves verification of the car registration,driver and road license validity by police, customs, or TRA; 
