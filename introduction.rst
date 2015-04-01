@@ -10,14 +10,15 @@ storage, aggregation, analysis and dissemination of information associated
 with road safety.
 
 
-..Components of iROAD
+.. index::Components of iROAD
 
 Components of iROAD
 ===================
 
-. Figure 1 below depicts major components of road safety information with respect to the need of the integration into an information system for road safety management.
+Figure 1 below depicts major components of road safety information with respect to the need of the integration into an information system for road safety management.
 
 .. image:: images/structure.png
+
    :align:  center
 
    .. centered:: **Figure 1: Major Components of Road Safety Information.**
