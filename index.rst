@@ -22,7 +22,7 @@ Introduction to the **iROAD**
 
 
 Getting Started
-===============
+================
   
 Installation
     .. toctree::
@@ -49,7 +49,7 @@ User Manual
 
 
 Administrators Manual
-=====================
+=======================
 
     .. toctree::
        :maxdepth: 3
@@ -93,7 +93,7 @@ References
         Project References
 
 iROAD Best Practices
-===================
+=====================
 
   	.. toctree::
   	   :maxdepth: 3
@@ -105,7 +105,7 @@ iROAD Best Practices
         
 
 Indices and tables
-==================
+===================
 
 * :ref:`genindex`
 * :ref:`modindex`

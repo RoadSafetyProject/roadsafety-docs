@@ -1,6 +1,6 @@
 .. _getstarted:
 
-====
+
 Road Safety Management Information System (iROAD) is a software that intends to improve Management of Road Safety in Tanzania.
 
 iROAD enables Car registration and use validity which involves verification of the car registration, 
@@ -44,7 +44,7 @@ Why Would you want to choose iROAD
 .. index:: Introduction to iROAD
 
 Introduction to iROAD
-====================
+======================
 
     The iROAD software is developed by the University of Dar es salaam to help reducing accidents and offences occurring on Tanzania's roads 
 	through linking of the stakeholders involved in road safety to improve information sharing and dissemination.
@@ -116,8 +116,9 @@ Modules and Features
         
 
 .. index:: Properties of iROAD
+
 Properties of iROAD
-------------------
+-------------------
 
     * Web and Mobile enabled
     * Platform independent

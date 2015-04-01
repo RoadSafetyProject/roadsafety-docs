@@ -2,9 +2,9 @@
 .. _introduction:
 
 
-***************
+
 Introduction to iRoad
-***************
+======================
 
 .. image:: images/structure.png
    :align:  center
