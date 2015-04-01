@@ -18,11 +18,6 @@ Data entry
 
 .. centered:: **fig 3.1: Image showing the Interface of a Data entry form loading data.**
 
-.. _fields_image:
-.. figure::  images/structure.png
-   :align:   center
-.. centered:: **fig 3.2: Image showing the List of Forms Available for Entering Data.**
-
 
 (Another content)
 
@@ -40,6 +35,7 @@ An example of the form ready for data entry is as follows:
 .. figure::  images/structure.png
    :align:   center
 .. centered:: **fig 3.4: The red covered Fields are the Compulsory ones.**
+
 
 .. index:: Update Records
 
@@ -62,6 +58,7 @@ Update Records
 .. centered:: **fig 3.7: An example of records .**
 
 (Another content)
+
 
 .. index:: Edit Records
 

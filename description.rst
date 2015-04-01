@@ -57,7 +57,7 @@ These steps so far, will enable for an account to be created but access to infor
 .. index:: User profile
 
 User profile
-========
+============
 
 User profile enables a user to view their profile, customize dashboard reports, view settings, change user password or log out of the system. To access the user profile click on the username and a drop down list as seen in the diagram will appear.
 

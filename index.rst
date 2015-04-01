@@ -35,6 +35,7 @@ Installation
 User Manual
 =====================
 
+User Manual
     .. toctree::
        :maxdepth: 3
        :numbered:
@@ -68,7 +69,7 @@ Developers Documentation
        :maxdepth: 3
        :numbered:
       
-	  developers
+	  Developers Manual<developers>
 
 Contributions
 =============
@@ -77,7 +78,7 @@ Contributions
        :maxdepth: 3
        :numbered:
       
-	  contributors
+	  Contributors<contributors>
     
 
 References
@@ -87,11 +88,6 @@ References
 
 iROAD Best Practices
 =====================
-
-  	.. toctree::
-  	   :maxdepth: 3
-  	   :numbered:
-
 
 	   Recommendations for Deployment and Implementation
 
