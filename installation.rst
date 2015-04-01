@@ -1,8 +1,8 @@
 .. installation:
 
-.. index:: Installing HRIS Software
+.. index:: Installing iROAD Software
 
-Installing HRIS Software
+Installing iROAD Software
 =======================
 
 **PHP5-INTL Dependency**
@@ -35,7 +35,7 @@ Installing HRIS Software
 
     Symbolic Link your web directory to the webroot directory::
 
-        ln -s ${PWD}/web/ /var/www/hris     #Assuming your current directory(PWD) is inside hris project and your webroot is on /var/www/
+        ln -s ${PWD}/web/ /var/www/rsmsa     #Assuming your current directory(PWD) is inside hris project and your webroot is on /var/www/
 
     Set date time zone inside php.ini to your location,change line date.timezone to your locale, e.g in `Dar-es-salaam, Tanzania`::
 
@@ -85,12 +85,11 @@ Database Setup
 			'prefix'    => '',
 		),
 
-**Generating database**::
-
-        app/console doctrine:database:drop --force      #Drops Database if it exist
-        app/console doctrine:database:create            #Creates Fresh new database
-        app/console doctrine:schema:update --force      #Updates Database schema
-        app/console list                                #List all commands offered
+**To generating database,go to the command prompt and run the  following commands.**::
+    
+	
+        php artisan migrate                             #Creates Fresh new database
+        php artisan db:seed                             #seeds startup data to the database
 
 **Creating, Activating,Changing password, deactivate, demote & promote login-user from commandline**::
 

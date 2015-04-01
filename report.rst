@@ -2,8 +2,7 @@
    sphinx-quickstart on Tue Mar 31 12:10:48 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-
-
+   
 This is Road Safety Management System Dodumentention
 =============================================================
 
@@ -18,7 +17,7 @@ Get started fast with the **iROAD**
        :maxdepth: 3
        :numbered:
 
-       iROAD<getstarted>
+       Getting started<getstarted>
 
 
 Getting Started
@@ -29,7 +28,7 @@ Installation
        :maxdepth: 3
        :numbered:
 
-       Notes on Installation<installation>
+       Notes on Installation <installation>
 
 
 User Manual
@@ -55,7 +54,7 @@ Administrators Manual
        :maxdepth: 3
        :numbered:
 
-       What is iroad<introduction>
+       What is HRIS<introduction>
 
        User Module<users>
 

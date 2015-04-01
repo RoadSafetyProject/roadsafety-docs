@@ -6,7 +6,7 @@
 Introduction to iRoad
 ***************
 
-.. image:: _static/logo.png
+.. image:: images/structure.png
    :align:  center
 
 Welcome to Integrated Road Safety Information Systems for collection, 
