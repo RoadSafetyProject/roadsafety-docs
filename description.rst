@@ -14,29 +14,6 @@ Login
 
 Open the browser and type the following address: http://www. hrhis.moh.go.tz then a page similar to the one shown in the image below will be displayed whereby a user will be required to type in their correct username and password. In the instance where one does not have a username or password please see register information following next. This system works best with Mozilla Firefox, Google Chrome or Opera browsers. From here on, the use of the word “browser” will refer to above mentioned web browsers only.
 
-.. _fields_image:
-.. figure::  _static/login.png
-   :align:   center
-
-.. centered:: **fig 1.1: Image showing login Interface.**
-
-
-Upon successful login, a user will be directed to the page with the menu on the left hand side through which he can access various parts of the system (see figure 1.3 below). However on unsuccessful login an error message will be displayed (see figure 1.2 below) and you will be required to re-type the username and password.
-
-.. _fields_image:
-.. figure::  _static/login2.png
-   :align:   center
-
-.. centered:: **fig 1.2: Image showing error message displayed on unsuccessful login.**
-
-
-.. _fields_image:
-.. figure::  _static/login3.png
-   :align:   center
-
-.. centered:: **fig 1.3: Image showing HRHIS home page on successful Login.**
- 
-
 
 
 .. index:: Register
@@ -60,26 +37,10 @@ These steps so far, will enable for an account to be created but access to infor
 Forgot password
 ===============
 
-In the instance where a user forgot his password, the “Forgot my Password?” link on the login page is there to assistance. On clicking the link a user will be sent to a page as shown in the Figure 3.1 and required to provide either a username or email address used initially during registration. After that the user can click the “reset password” button to reset password.  A prompt will appear on the page informing that an email has been sent to his particular email account for resetting password. The user can login into his email to follow a link sent to his email and click the attached link to get a HRHIS page for setting a new password.
-
-.. _fields_image:
-.. figure::  _static/forgotpassword.png
-   :align:   center
-
-.. centered:: **fig 3.1: Image showing required details for resetting password.**
-
-.. index:: Home page
 
 Home page
 =========
 
-On successful login, a user is directed to the Home Page which consists of the main menu on the left side and dashboard charts in the middle. At the top most part of the system you will have on your left a home icon to denote the home page while on the left side will be today’s date, a message icon with the number of un read messages in red, a help button- which contains this help manual and the name of the user currently accessing the system
-
-.. _fields_image:
-.. figure::  _static/homepage.png
-   :align:   center
-
-.. centered:: **fig 4.1: User Home Page displaying interactive components.**
 
 .. index:: Message feature
 

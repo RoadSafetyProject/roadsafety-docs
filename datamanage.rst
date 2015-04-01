@@ -14,17 +14,6 @@ Data entry
 In here you can select the forms designed in the previous part so that you can populate data.
 On Clicking data entry the screen below will be displayed before a list of available forms.
 
-.. _fields_image:
-.. figure::  _static/dataentry.png
-   :align:   center
-
-.. centered:: **fig 3.1: Image showing the Interface of a Data entry form loading data.**
-
-.. _fields_image:
-.. figure::  _static/dataentry1.png
-   :align:   center
-.. centered:: **fig 3.2: Image showing the List of Forms Available for Entering Data.**
-
 
 Data entry forms are categorized according to the type of Employer. Select Public Employee form when entering public employee record and private employee form private/FBO Employee record. Also select Referral Hospital Employee Form when entering record for specialized/Consultant hospital employee by clicking on down arrow on the right hand of Data entry Forms.
 
@@ -48,27 +37,7 @@ Fill the form with the appropriate data then click on the “Save Records” button 
 Update Records
 ==============
 
-This option allows user to view the records already entered into the system of their respective organization unit. If Update records option is selected, it will load data before listing available forms.
 
-.. _fields_image:
-.. figure::  _static/updaterecord.png
-   :align:   center
-.. centered:: **fig 3.5: Update records Loading Data.**
-
-.. _fields_image:
-.. figure::  _static/updaterecord1.png
-   :align:   center
-.. centered:: **fig 3.6: List of forms in View records options.**
-
-
-If Show all records options is selected, the system will display all records that have already been entered into the database for the respective user’s organization and form type. See image below
-
-.. _fields_image:
-.. figure::  _static/updaterecord2.png
-   :align:   center
-.. centered:: **fig 3.7: An example of records in the system for Arusha City Council, Public Employee Form.**
-
-At the end of each record row, there are six options discussed here under in details: 
 
 .. index:: Edit Records
 
@@ -84,29 +53,6 @@ History Management
 ------------------
 
 This stands for Record’s History Management, by Selecting History option of a particular record, that record’s history will be displayed as if has been added before. If the record has no history details the interface shown in the image bellow will be displayed:
-
-.. _fields_image:
-.. figure::  _static/historymanage.png
-   :align:   center
-.. centered:: **fig 3.8: Image showing a table of an employee record that has no History Details.**
-
-To add a history click “Add History” and then an interface shown in the image below will be displayed:
-
-
-.. _fields_image:
-.. figure::  _static/historymanage1.png
-   :align:   center
-.. centered:: **fig 3.9: Image showing an Interface for adding History to a record.**
-
-To add history update of an employee record fill the form as displayed in the above figure then tick the “updaterecord” check box to make the record updated and finally click “Create” to add the history.
-
-.. _fields_image:
-.. figure::  _static/historymanage2.png
-   :align:   center
-.. centered:: **fig 3.10:  Image showing an interface of History Details of an employee record.**
-
-The image above shows a list of History details of an employee with each detail having options to show, edit or delete a history detail in the column titled “Action”.
-
 
 .. index:: In-service Training Management
 
@@ -127,20 +73,6 @@ However options Add Training and Back to Records will b e displayed if the emplo
    :align:   center
 .. centered:: **fig 3.12:  Image showing an interface for adding an In-Service Training of an employee record.**
 
-
-
-.. index:: Change Form
-
-Change Form
------------
-
-This is a functionality which can be used to transfer employee information from one data entry form to another. It can be used when an employee previously employed in a private/FBO facility has been employed by a public facility. Also it might be that by mistake an employee was entered into an incorrect form and thus his/her details have to be transferred to another form.
-Click the second button from left    then the interface like the one shown in the image below here will appear where the choice of the form to which you need to transfer the employee’s details can be made.
-
-.. _fields_image:
-.. figure::  _static/changeform.png
-   :align:   center
-.. centered:: **fig 3.13:  Image showing an interface for changing a form (Transfer an employee’s data from one form to another).**
 
 .. index:: Data Validation
 
