@@ -1,6 +1,19 @@
 .. _getstarted:
 
+.. index:: About The Documentation
 
+About The Documentation
+=======================
+The iROAD documentation is a collective effort and has been developed by the development team and users. While the guide strives to be complete, there may be certain functionalities which have been omitted or which have yet to be documented. This section explains some of the conventions which are used throughout the document.
+
+iROAD is a browser-based application. In many cases, screenshots have been included for enhanced clarity. 
+Shortcuts to various functionalities are displayed such as "Maintenance->Data administration". 
+The "->" character indicates that you should choose "Maintenance" and then click on "Data administration" in the menu which appears through the browser.
+
+.. index:: Overview of iROAD
+
+The Overview Of iROAD
+=====================
 Road Safety Management Information System (iROAD) is a software that intends to improve Management of Road Safety in Tanzania.
 
 iROAD enables Car registration and use validity which involves verification of the car registration, 
@@ -43,8 +56,8 @@ Why Would you want to choose iROAD
 
 .. index:: Introduction to iROAD
 
-Introduction to iROAD
-======================
+iROAD Background
+================
 
     The iROAD software is developed by the University of Dar es salaam to help reducing accidents and offences occurring on Tanzania's roads 
 	through linking of the stakeholders involved in road safety to improve information sharing and dissemination.
