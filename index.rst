@@ -17,6 +17,7 @@ Introduction to the **iROAD**
     .. toctree::
 	   :caption: Table of Contents
        :maxdepth: 3
+       :numbered:
 
        iROAD<getstarted>
 
