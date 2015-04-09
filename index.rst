@@ -4,8 +4,8 @@
    contain the root `toctree` directive.
 
 
-Welcome To The Road Safety Management System Documentantion
-=============================================================
+Welcome To The iROAD Documentantion
+===================================
 
 .. index:: Table of content
 
@@ -34,7 +34,7 @@ Installation
 
 
 User Manual
-=====================
+===========
 
 User Manual
     .. toctree::
