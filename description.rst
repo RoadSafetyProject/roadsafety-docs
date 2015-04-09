@@ -12,7 +12,7 @@ This part is intended to give user an insight on how to use the system and acces
 Login
 =====
 
-Open the browser and type the following address: http://www.roadsafety.udsm.go.tz then a page similar to the one shown in the image below will be displayed whereby a user will be required to type in their correct username and password. In the instance where one does not have a username or password please see register information following next. This system works best with Mozilla Firefox, Google Chrome or Opera browsers. From here on, the use of the word “browser” will refer to above mentioned web browsers only.Open the browser and type the following address:  then a page similar to the one shown in the image below will be displayed whereby a user will be required to type in their correct username and password. In the instance where one does not have a username or password please see register information following next. This system works best with Mozilla Firefox, Google Chrome or Opera browsers. From here on, the use of the word “browser” will refer to above mentioned web browsers only.
+Open the browser and type the following address: http://www.roadsafety.udsm.go.tz then a page similar to the one shown in the image below will be displayed whereby a user will be required to type in their correct username and password. In the instance where one does not have a username or password please see register information following next. This system works best with Mozilla Firefox, Google Chrome or Opera browsers. From here on, the use of the word browser will refer to above mentioned web browsers only.Open the browser and type the following address:  then a page similar to the one shown in the image below will be displayed whereby a user will be required to type in their correct username and password. In the instance where one does not have a username or password please see register information following next. This system works best with Mozilla Firefox, Google Chrome or Opera browsers. From here on, the use of the word browser will refer to above mentioned web browsers only.
 
 .. _fields_image:
 .. figure::  images/login.png
@@ -44,7 +44,7 @@ Upon successful login, a user will be directed to the page with the menu on the 
 Register
 ========
 
-In the case where one does not have a username or password, they will be required to first register themselves in order to have an account in the system. To do so; besides the login page, there is a register tab. On selecting it, a page similar to one shown below (Figure 1.4 below) will appear requesting the new user to fill in all required details and submit them by clicking the “Register” button. After doing so an email to activate the account will be sent to the users email account provided during registration; and the registering user will be prompted to visit their email and follow link sent for activating their account. 
+In the case where one does not have a username or password, they will be required to first register themselves in order to have an account in the system. To do so; besides the login page, there is a register tab. On selecting it, a page similar to one shown below (Figure 1.4 below) will appear requesting the new user to fill in all required details and submit them by clicking the Register button. After doing so an email to activate the account will be sent to the users email account provided during registration; and the registering user will be prompted to visit their email and follow link sent for activating their account. 
 These steps so far, will enable for an account to be created but access to information already in the system will still not be possible until verification of user is done by the help desk team who will then assign new user to an organization unit for complete registration.
 
 .. _fields_image:
@@ -75,7 +75,7 @@ User profile enables a user to view their profile, customize dashboard reports, 
 Change password
 ===============
 
-In the instance where a user wants to change his/her password, the Change Password?” link on the login page is there to assistance. On clicking the link a user will be sent to a page as shown in the Figure 3.1 and required to provide the current password and the new password.After that the user shoul click on the "SUBMIT" button and he/she will have a new password.
+In the instance where a user wants to change his/her password, the Change Password? link on the login page is there to assistance. On clicking the link a user will be sent to a page as shown in the Figure 3.1 and required to provide the current password and the new password.After that the user shoul click on the "SUBMIT" button and he/she will have a new password.
 
 .. _fields_image:
 .. figure::  images/changepassword.png
