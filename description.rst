@@ -24,14 +24,14 @@ Open the browser and type the following address: http://www.roadsafety.udsm.go.t
 
 Upon successful login, a user will be directed to the page with the menu on the left hand side through which he can access various parts of the system (see figure 1.3 below). However on unsuccessful login an error message will be displayed (see figure 1.2 below) and you will be required to re-type the username and password.
 
-.. _fields_image:
-.. figure::  images/login3.png
+.. _fields_login1:
+.. figure::  images/login2.png
    :align:   center
 
 .. centered:: **fig 1.2: Image showing error message displayed on unsuccessful login.**
 
 
-.. _fields_image:
+.. _fields_login2:
 .. figure::  images/login2.png
    :align:   center
 
@@ -47,7 +47,7 @@ Register
 In the case where one does not have a username or password, they will be required to first register themselves in order to have an account in the system. To do so; besides the login page, there is a register tab. On selecting it, a page similar to one shown below (Figure 1.4 below) will appear requesting the new user to fill in all required details and submit them by clicking the Register button. After doing so an email to activate the account will be sent to the users email account provided during registration; and the registering user will be prompted to visit their email and follow link sent for activating their account. 
 These steps so far, will enable for an account to be created but access to information already in the system will still not be possible until verification of user is done by the help desk team who will then assign new user to an organization unit for complete registration.
 
-.. _fields_image:
+.. _fields_register:
 .. figure::  images/structure.png
    :align:   center
 
@@ -61,7 +61,7 @@ User profile
 
 User profile enables a user to view their profile, customize dashboard reports, view settings, change user password or log out of the system. To access the user profile click on the username and a drop down list as seen in the diagram will appear.
 
-.. _fields_image:
+.. _fields_profile:
 .. figure::  images/profile.png
    :align:   center
 
@@ -77,7 +77,7 @@ Change password
 
 In the instance where a user wants to change his/her password, the Change Password? link on the login page is there to assistance. On clicking the link a user will be sent to a page as shown in the Figure 3.1 and required to provide the current password and the new password.After that the user shoul click on the "SUBMIT" button and he/she will have a new password.
 
-.. _fields_image:
+.. _password_image:
 .. figure::  images/changepassword.png
    :align:   center
 
@@ -92,7 +92,7 @@ Home page
 On successful login, a user is directed to the Home Page which consists of the main menu on the right side and dashboard charts in the middle. 
 
 
-.. _fields_image:
+.. _home_image:
 .. figure::  images/login2.png
    :align:   center
 
@@ -107,7 +107,7 @@ Services
 
 On the Home page there is a link on the right hand side written "Services" that will direct you to the services the system offers.Figure below shows the services page.
 
-.. _fields_image:
+.. _services_image:
 .. figure::  images/services.png
    :align:   center
 
