@@ -25,19 +25,19 @@ The hierarchy is built up of parent-child relations. For instance a country migh
 
 Note that it is quite easy to make changes to the upper levels of the hierarchy at a later stage, the only problem is changing administrativeal units that collect data (the leaf nodes), e.g. splitting or merging health facilities. Aggregation up the hierarchy is done based on the current hierarchy at any time and will always reflect the most recent changes to the administrativeal structure.
 
-**Important**::
+**Important**:
 
 Because the most recent information which is contained in the administrativeal unit hierarchy is always used for aggregation, it is important to keep in mind that changes to it (such as the division of districts into two separate districts) will not be respected over time. As an example, District A may be sub-divided into District B and District C. This is a process which often happens for political reasons. Facilities which belong to District A would need to be reassigned to District B and C. However, any historical data, which was entered before the split actually occurred, would still be registered as belonging to District B and C and not the defunct District A. This temporal representation of the administrativeal hierarchy across time will be lost.
 
 Administrative unit maintenance
-=============================
+===============================
 
 Administrative units
-------------------
+--------------------
 This is where you can create administrative units (from now on referred to as orgunits) and build up the orgunit hierarchy. Orgunits are added one by one as either root unit or a child of a selected unit. The left side menu represents the current administrativeal hierarchy and if you select a unit there you will see its children listed in the main list of orgunits in the middle of the screen. When an orgunit is selected in the left side menu you can also add new child units to it. To locate an orgunit in the hierarchy you can either navigate through the tree by expanding the branches (click on the + symbol), or search for it by opening the search field (click the green symbol above the root of the hierarchy). In search you can either search for the orgunit name or its code, both will only show exact matches (case-insensitive). To add a new orgunit first select its parent and then click on the Add new button in the top right corner of the list of orgunits. To add a new root orgunit make sure no orgunit is selected in the menu and click on "Add new".
 
 Editing administrative units
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 To edit the properties of an existing orgunit first select its parent (if any) in the left side menu, then locate the orgunit in the listed orgunits, and click on the name of the orgunit that you want to modify. A context menu will appear, and you should select "Edit". Refer to the screen-shot below to see how it works.
 
 The following properties can be defined in the Edit (or Create new) window:
