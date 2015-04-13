@@ -4,73 +4,168 @@
    contain the root `toctree` directive.
 
 
-Welcome To The Road Safety Management System Documentantion
-=============================================================
+Welcome To iROAD Documentantion
+===============================
 
 .. index:: Table of content
 
-Preface
-==========
+
+What is iROAD 2?
+================
 
 Introduction to the **iROAD**  
 
     .. toctree::
        :maxdepth: 3
        :numbered:
+       
+       iROAD<about>
 
-       iROAD<getstarted>
 
-
-Getting Started
-================
+Getting Started with iROAD 2
+============================
   
-Installation
-    .. toctree::
-       :maxdepth: 3
-       :numbered:
-
-       Notes on Installation<installation>
-
-
-User Manual
-=====================
-
-User Manual
-    .. toctree::
-       :maxdepth: 3
-       :numbered:
-
-       Introduction<introduction>
-
-       Description of the system<description>
-
-       Data Management<datamanage>
-
-       Reports<report>   
-
-
-Administrators Manual
-=======================
+Getting started with DHIS 2
 
     .. toctree::
        :maxdepth: 3
        :numbered:
 
-       What is iroad<introduction>
+       Getting started with iROAD 2<getstarted>
 
 
+Administrative units
+====================
+
+Administrative units
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Administrative units<admin_units>
+
+
+Events DataElements
+===================
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Events DataElements<dataelements>
+
+
+Data sets
+=========
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Data Sets<datasets>
+
+User Management
+===============
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       User Management<user_management>
+       
+Sharing
+=======
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Sharing<sharing>
+
+Dashboards
+==========
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Dashboards<dashboard>
+
+Data Entry
+==========
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Data Entry<data_entry>
        
 
+Using reporting functionality
+=============================
 
-Developers Documentation
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Using reporting functionality<report>
+       
+       
+Using Pivot Table
+=================
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Using Pivot Table<pivot>
+       
+Data Visualizer overview
 ========================
 
     .. toctree::
        :maxdepth: 3
        :numbered:
-      
-	  Developers Manual<developers>
 
+       Data Visualizer overview<data_visualizer>
+       
+Using GIS
+=========
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Using GIS<gis>       
+
+Setting up GIS
+==============
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Setting up GIS<set_gis>  
+       
+Data Administration
+===================
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Setting up GIS<data_administration>  
+              
+System Settings
+===============
+
+    .. toctree::
+       :maxdepth: 3
+       :numbered:
+
+       Setting up GIS<settings>  
+              
+              
 Contributions
 =============
  
@@ -88,7 +183,7 @@ References
 
 iROAD Best Practices
 =====================
-
+   
 	   Recommendations for Deployment and Implementation
 
         
@@ -99,5 +194,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-* :ref:`images`
 
