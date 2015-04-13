@@ -143,4 +143,225 @@ you have defined no compulsory OrgUnit Group Sets, then you must first define th
 relevant). If you have the relevant group sets, go to Maintenance -> OrgUnit Groups to review each OrgUnit identified
 and add the relevant Group allocation.
 
+Organisation units violating compulsory group sets
+--------------------------------------------------
+These organisation units have not been assigned to the any organisation unit group within one of the compulsory
+organisation unit group sets. When a group set is defined as compulsory, it means that an organisation unit must be
+allocated to at least one organisation unit group within that group set. For instance, all organisation units must belong to
+one of the groups in the 'Type' group set. It might belong to the `Hospital` or the `Clinic` or any other 'type' group - but
+it must belong to exactly one of them. Go to Organisation units->Organisation unit groups to review each organisation
+unit identified in the integrity check. Allocate all organisation units to exactly one compulsory group.
+
+Organisation units violating exclusive group sets
+-------------------------------------------------
+Some organisation units have been allocated to several organisation unit groups that are members of the same
+organisation unit group set. All group sets in iROAD are defined as exclusive, which means that an organisation unit
+can only be allocated to one organisation unit group within that Group Set. For instance, one organisation unit cannot
+normally belong to the both the 'Hospital' and 'Clinic' groups , but rather to only to one of them. Go to Organisation unit-
+>Organisation unit groups to review each organisation unit identified in the integrity check. Remove the organisation
+units from all groups except the one that it should be allocated to.
+
+Organisation unit groups without group sets
+-------------------------------------------
+The organisation unit groups listed here have not been allocated to a group set. Go to Maintenance->Organisation unit-
+>Organisation unit group sets and allocate the Organisation unit group to the appropriate group set.
+
+Validation rules without groups
+-------------------------------
+All validation rules must be assigned to a group. Go to Data quality->Validation rule group and assign the offending
+validation rule to a group.
+
+Invalid validation rule left side expressions
+---------------------------------------------
+An error exists in the left-side validation rule definition. Go to Data quality->Validation rule and click the "Edit"
+icon on the offending rule. Press "Edit left side" and make the corrections that are required.
+
+Invalid validation rule right side expressions
+----------------------------------------------
+An error exists in the left-side validation rule definition. Go to Data quality->Validation rule and click the "Edit"
+icon on the offending rule. Press "Edit right side" and make the corrections that are required.
+
+
+Maintenance
+===========
+The data maintenance module has five options, each described below.
+
+* Clear analytics tables
+
+Completely empties the analytics tables. These tables are used to generate aggregate data for the pivot tables, GIS
+and reports.
+
+* Clear data mart (aggregated indicator and data value values)
+
+The data mart is where iROAD 2 stores aggregated data produced during the export to data mart process. This function
+empties the database table which contains aggregated indicator and data element values.
+
+* Rebuild data mart index
+
+Rebuilds the database indexes on the aggregated data generated during a data mart process.
+
+* Clear zero values
+
+This function removes zero data values from the database. Values registered for data elements with aggregation
+operator average is not removed, as such values will be significant when aggregating the data, contrary to values
+registered for data elements with aggregation operator sum. Reducing the number of data values will improve system
+performance.
+
+* Clear dataset completeness
+
+This function empties the aggregated dataset completeness value table. This data is produced and used by report
+tables.
+
+* Prune periods
+
+This function removes all periods which have no registered data values. Reducing the number of periods will improve
+system performance.
+
+* Remove expired invitations
+
+Will delete users which represent user account invitations that now have gone past their expiry date.
+
+* Create SQL views
+
+* Will recreate all SQL views in the database.
+
+* Update category option combinations
+
+Rebuilds the category option combinations. This may be required after altering the category options which belong
+to a given category.
+
+Resource tables
+===============
+
+Resource tables are supporting tables that are used during analysis of data. One would typically join the contents of
+these tables with the data value table when doing queries from third-party applications like Microsoft Excel. They are
+also used extensively by the analysis modules of iROAD2. Regeneration of the resource tables should only be done once
+all data integrity issues are resolved. The resource tables are also generated automatically, every time the analytics
+process is run by the system.
+
+* Organisation unit structure (_orgunitstructure)
+
+This table should be regenerated any time there have been any changes made to the organisational unit hierarchy.
+This table provides information about the organisation unit hierarchy. It has one row for each organisation unit, one
+column for each organisation unit level and the organisation unit identifiers for all parents in the lineage as values.
+
+* Data element group set structure (_dataelementgroupsetstructure)
+
+This table provides information about which data elements are members of which data element group sets. The table
+has one row for each data element, one column for each data element group set and the names of the data element
+group as values.
+
+* Indicator group set structure (_indicatorgroupsetstructure)
+
+This table provides information about which indicators are members of which indicator group sets. The table has
+one row for each indicator, one column for each indicator group set and the names of the indicator group as values.
+
+* Organisation unit group set structure (_organisationunitgroupsetstructure)
+
+This table provides information about which organisation units are members of which organisation unit group sets.
+The table has one row for each organisation unit, one column for each organisation unit group set and the names
+of the organisation unit groups as values.
+
+* Category structure (_categorystructure)
+
+This table provides information about which data elements are members of which categories. The table has one row
+for each data element, one column for each category and the names of the category options as values.
+
+* Data element category option combo name (_categoryoptioncomboname)
+
+This table should be regenerated any time there have been changes made to the category combination names. It
+contains readable names for the various combinations of categories.
+
+* Data element structure (_dataelementstructure)
+
+This table provides information about all data elements and which period type (frequency) they capture data at. The
+period type is determined through the data set membership and hence relies on data elements to be member of data
+sets with similar period types to have a defined behavior.
+
+* Period structure (_dataperiodstructure)
+
+This table provides information about all periods and which period type they are associated with. For each period
+type with lower frequency than itself, it contains information about which period it will fall within.
+
+* Data element category option combinations (_dataelementcategoryoptioncombo)
+
+This table provides a mapping between data elements and all possible category option combinations.
+
+
+Locale Management
+=================
+
+It is possible to create custom locales in iROAD2. In addition to the locales available through the system, you might
+want to add a custom locale such as "English" and "Zambia" to the system. This would allow you to translate metadata
+objects to local languages, or to account for slight variants between countries which use a common metadata definition.
+The locale is composed of a language along with a country. Select the desired values and press "Add". This custom
+locale will now be available as one of the translation locales in the system.
+
+SQL View
+========
+
+The SQL View functionality of iROAD2 will store the SQL view definition internally, and then materialize the view
+when requested.
+
+Database administrators must be careful about creating database views directly in the iROAD 2 database. For instance,
+when the resource tables are generated, all of them will first be dropped and then re-created. If any SQL views depend
+on these tables, an integrity violation exception will be thrown and the process will be aborted.
+The SQL views are dropped in reverse alphabetical order based on their names in iROAD 2, and created in regular
+alphabetical order. This allows you to have dependencies between SQL views, given that views only depend on other
+views which come earlier in the alphabetical order. For instance, "ViewB" can safely depend on "ViewA". Otherwise,
+having views depending on other view result in an integrity violation error.
+
+Creating a new SQL view
+-----------------------
+To create a new SQL view, choose Maintenance->SQL view and click the "Add new" button.
+
+The "Name" attribute of the SQL view will be used to determine the name of the table that iROAD2 will create when
+the view is materialized by the user. The "Description" attribute allows one to provide some descriptive text about
+what the SQL view actually does. Finally, the "SQL statement" should contain the SQL view definition. Only SQL
+"SELECT" statements are allowed and certain sensitive tables (i.e. user information) are not accessible Press "Save"
+to store the SQL view definition.
+
+SQL View management
+-------------------
+In order to utilize the SQL views, simply press the "Execute query" button from the "SQL View management
+page. Once the process is completed, you will be informed that a table has been created. The name of the table will be
+provided, and is composed from the "Description" attribute provided in the SQL view definition. Once the view has
+been materialized, click on the "View" button
+
+Organisation unit merge
+=======================
+
+This function is useful when two organisation units need to be merged, e.g. it is decided that one facility will be shut
+down and its services will be provided by a nearby facility.
+
+Start by selecting the organisation unit to eliminate from the tree and click confirm. Then select the organisation unit
+to keep and click confirm again. Finally, verify the selection and click merge.
+
+In the situation where data exist for the organisation unit to eliminate and not for the one to keep, the data will be
+moved to the one to keep. When data exists for both organisation units, the data will be summarized and moved to
+the one to keep. When data exists only for the one to keep, no action is taken. The organisation unit to eliminate will
+eventually be deleted.
+
+Duplicate data elimination
+==========================
+This function is useful when data has been entered mistakenly for two data elements which represents the same
+phenomena.
+
+Start by selecting the data element to eliminate from the list and click confirm. Then select the data element to keep
+and click confirm again. Finally, verify the selection and click merge.
+
+In the situation where data exists for the data element to eliminate and not for the one to keep, the data will be moved
+to the one to keep. When data exists for both data elements, the data which was updated last will be used. When data exists only for the one to keep, no action will be taken. The data element to eliminate will eventually be deleted, except
+when it is a multidimensional data element and has other data registered.
+
+
+
+
+
+
+
+
+
+
+
 
