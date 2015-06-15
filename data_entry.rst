@@ -71,3 +71,238 @@ Multi-organisation unit data entry
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In some scenarios it is beneficial to enter data for multiple organisation units in the same data entry form, for instance if there are few data elements in the form and a huge number of organisation units in the hierarchy. In that case you can enable multi-organisation unit data entry by going to "System settings" and tick the "Enable multi organisation unit forms" setting. Then, in data entry, select the organisation unit immediately above the organisation unit you want to enter for in the hierarchy. Note that this only work for the "section" based forms. You should now see the data elements appearing as columns and the organisation units appearing as rows in the form. Note that the data entry forms should still be assigned to the facilities that you actually enter data for, i.e. the organisation units now appearing in the form.
 
+
+Data entry with iROAD2 APPS
+============================
+
+iROAD2 APPS allows a user to interact with the system specifically by entering into a respective Module that provides a given service.
+
+The following APPs provides a way to interact with iROAD2 depending the information the user wants from system.
+
+#. Motor Vehicles Web APP.
+#. Drivers Web APP
+#. Accident Web APP
+#. Offences Web APP.
+
+Motor Vehicles Web APP
+-----------------------
+This is a web module that offers registrations of new motor vehicles and other services regarding motor vehicles like insuring and licensing.
+
+Adding new Motor Vehicles to iROAD2 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The iROAD2 Web APP offers a place to register new motor vehicles into the system.
+
+The web Motor Vehicle APP allows you to;
+
+#. Register a new motor vehicle.
+#. Edit an existing motor vehicle.
+#. Add Insurance to a vehicle.
+#. Do Vehicle Inspection.
+#. Add a Business Licence to a vehicle.
+#. View Accidents (if any) that a particular vehicle has encoutered.
+#. View Offences (if any) that a particular vehicle has encoutered.
+
+   
+Motor Vehicle web APP
+^^^^^^^^^^^^^^^^^^^^^
+The  Motor Vehicle web APP can be found by clicking on the services tab displayed in the main menu. 
+
+A drop down menu will appear listing the services provided by iROAD 2. Click on the Motor Vehicle APP option.
+
+When the Motor Vehicle APP opens, a list of all registered vehicles will be shown in a table known as the vehicles data table.
+
+Every row of this data contains a detailed information about a registered Motor Vehicle, and on every row of the Motor Vehicle data table,the following options are listed by cliking the (Action) button .
+
+#. Adding or Registering a new Motor Vehicle.
+#. Info.
+#. Edit.
+#. Delete.
+#. Add Insurance.
+#. Add Inspection.
+#. Add Business Licence.
+#. Add Vehicle Licence.
+#. Insurance history.
+#. Accidents.
+#. Offences.
+
+
+Adding a new Motor Vehicle
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When the Motor Vehicle APP opens, a list of all registered vehicle will be shown in a data table.
+
+On top of this data table,an (Add Vehicle) button can be seen.
+
+To add/register a new vehicle to iROAD2,follow the following procedures.
+
+#. Click the Add Vehicle button and a right side-window will show up requiring you to provide the details of the vehicle.
+
+#. After filling the required information, click the (Add) button to register this new vehicle.
+
+#. Finally a successful pop-up message will show up informing the user that the vehicle is registered.
+
+Viewing Vehicle(s) information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Along with the data presented on each row of the data table there is an option of viewing the info of a vehicle.
+
+On clicking the(Info) option on the vehicles data table above, a right side window showing all the information of the chosen vehicle will occur.
+
+To cancel this side window, click close button on the right top corner of this window. 
+
+
+Editing vehicle information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you wish to edit the information on any vehicle,click on the edit option.
+
+On clicking the(Edit) option on the vehicles data table above, a right side bar having the information on the vehicle to be edited will open up.
+
+Edit the information you need to edit and click the done button.
+
+Deleting vehicle information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you wish to delete the information on any vehicle,click on the delete option.
+
+On clicking the(Delete) option on the vehicles data table above, a pop-up window will open, and you can hit the delete button on the pop-up window to delete the vehicle.
+
+Insuring a  vehicle
+^^^^^^^^^^^^^^^^^^^
+You can insure a vehicle to an insurance companies using the motor vehicle application.
+
+Inspecting  a  vehicle
+^^^^^^^^^^^^^^^^^^^^^^
+The motor vehicle application allows a trafic officer to inspect a vehicle and provide the results on the inspection done.
+
+
+
+Accident Web APP
+----------------
+To open the Accident APP click on the services tab displayed in the main menu. A drop down menu will appear listing the services provided by iROAD 2. Click on the Accident APP option.
+
+Adding a new Accident 
+^^^^^^^^^^^^^^^^^^^^^
+
+When the Accident APP opens, a list of all reported accidents will be shown in a table, and an (Add New Accident) button can be seen on top of the table.
+
+To add a new Accident follow the following procedures.
+
+#. Click the Add New Accident button and a pop-up window will show up requiring you to provide the details of the accident.
+
+#. After filling the required information on the above pop-up window, click the (Save and Proceed) button.
+
+#. Finally the last form will pop-up with a (Submit) button and on clicking it, the accident will be reported.
+
+
+   
+Viewing the reported accidents
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To view a reported Accident, click on the services tab displayed in the main menu. A drop down menu will appear listing the services provided by iROAD 2. Click on the Accident APP option.
+
+When the Accident APP opens, a list of all reported accidents will be shown in a table.
+
+On every row of the accident table, the following options are listed by cliking the (Action) button .
+
+#. Info(View Accident Info).
+#. Edit (Edit accident).
+#. View vehicle(s) involved.
+#. View driver(s) involved.
+#. View Accident media
+
+Viewing accident info
+^^^^^^^^^^^^^^^^^^^^^
+If you wish to view the information on any reported accident,this option is the way to go.
+
+On clicking the(Info) option on the accidents table above, a pop-up window showing all the information o the chosen accident will occur.
+
+To cancel this pop-up window, click outside the window and the window will collapse. 
+
+
+Editing an  accident
+^^^^^^^^^^^^^^^^^^^^
+If you wish to edit the information on any reported accident,click on this option.
+
+On clicking the(Edit Accident) option on the accidents table above, a right side bar having the information on the accident to be edited will open up.
+
+Edit the information you need to edit and click the save button.
+
+
+Viewing vehicles involved in an accident
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+On the accident web app, you can also view the vehicles involved in an accident. This is achieved by clicking the View vehicle(s) option form the accident data table.
+
+On clicking this button a table with vehicle details will show up below the major accidents data table.From this table you can also view the drivers involved in each vehicle when an accident occured.
+
+Viewing accident Media
+^^^^^^^^^^^^^^^^^^^^^^
+
+Accident reported using android application come with attached photo and videos.In order to view these media files, click on the (View Accident Media).
+
+On clicking this button, an interface showing the photo and video will show below the main accident data table.
+
+Entering Offence data using Offence Web APP
+---------------------------------------------
+You can add an offence into the iROAD2 system by using the Offence Web APP.
+
+To open the Offence APP click on the services tab displayed in the main menu. A drop down menu will appear listing the services provided by iROAD 2. Click on the Offence APP option.
+
+Adding a new Offence 
+^^^^^^^^^^^^^^^^^^^^^
+
+When the Offence APP opens, a list of all reported offences will be shown in a table, and an (Add New) button can be seen on top of the table.
+
+To add a new offence follow the following procedures.
+
+#. Click the Add New Offence button and a right side window will show up requiring you to provide the details of the offence.
+
+#. After filling the required information, click the (Done) button and the offence will be reported.
+
+   
+Viewing the reported offences
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To view a reported offence, click on the services tab displayed in the main menu. A drop down menu will appear listing the services provided by iROAD 2. Click on the Accident APP option.
+
+When the Offence APP opens, a list of all reported offencees will be shown in a table.
+
+On every row of the offence table,the following options are listed by cliking the (Action) button .
+#. Info.
+#. Edit.
+#. View Offences.
+#. View Payment.
+#. View Offences.
+#. View Vehicle.
+#. View Driver.
+
+Viewing offence info
+^^^^^^^^^^^^^^^^^^^^^
+If you wish to view the information on any reported offence,this option is the way to go.
+
+On clicking the(Info) option on the offences table above, a pop-up window showing all the information of the chosen offence will occur.
+
+To cancel this pop-up window, click outside the window and the window will collapse. 
+
+
+Editing an offence
+^^^^^^^^^^^^^^^^^^^^
+If you wish to edit the information on any reported offence,click on the edit option.
+
+On clicking the(Edit) option on the offences data table above, a right side bar having the information on the accident to be edited will open up.
+
+Edit the information you need to edit and click the save button.
+
+
+Viewing a vehicle involved in an offence
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+On the offence web app, you can also view the vehicle involved in an offence. This is achieved by clicking the View Vehicle option from the offence data table.
+
+On clicking this button a table with vehicle details will show up below the major offences data table.
+
+Viewing a driver involved in an offence
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+On the offence web app, you can also view a driver involved in an offence. This is achieved by clicking the View Driver option from the offence data table.
+
+On clicking this button a table with driver details will show up below the major offences data table.
+
+
